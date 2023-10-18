@@ -1,0 +1,264 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0 ;
+
+}
+.primerparte{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+   
+
+    color: black;
+    display: inline;
+    margin-left: 15px;
+}
+nav a{
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a :hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.segundalista{
+    
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.segundalista li{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+
+   
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.segundalista :hover{
+   border-color:#c78c19 ;
+}
+.segundalista :active{
+    border-color: #1cd434;
+}
+.segundalista h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.segundalista li :hover{
+    font-size: 33px;
+}
+.parrafouno{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.precio{
+    font-size: 30px;
+    font-weight: bold;
+
+   
+}
+.border{
+    font-weight: bold;
+}
+footer{
+    padding: 40px;
+    background-image: url(bg.jpg);
+    text-align: center;
+}
+.futer{
+    font-size: 13px;
+    color: #BBBBBB;
+}
+
+    
+ 
+   
+
+main label, p{
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+}
+form{
+    margin: 40px 0;
+   
+    
+}
+.input-padron{
+   display: block;
+   padding: 10px;
+   border-radius: 2em;
+   width: 50%;
+   
+}
+
+form button{
+    width: 55%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    transition: 1s all;
+    cursor: pointer;
+}
+.hover:hover{
+    background-color:darkorange;
+    transform: scale(1.05);
+}
+.container select{
+    font-weight: bold;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+}
+fieldset select{
+    width: 200px;
+    height: 35px;
+}
+.tabla{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td,th{
+    border: 1px solid #000000;
+    padding: 12px;
+
+}
+
+.banner{
+   width: 100%;
+   height: 100%;
+}
+.titulos{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.primer{
+    width: 940px;
+    margin: 0 auto;
+    s
+}
+.primer p{
+    padding: 1em;
+}
+.primer strong{
+    font-weight: bold
+
+}
+.primer em{
+    font-style: italic;
+}
+.limpiador{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+  
+   
+}
+.contenido-mapa{
+    width: 55%;
+    margin: 0 auto;
+    
+}
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888)
+}
+.imagend{
+width: 55%;
+transition: 400ms;
+box-shadow: 10px 10px 10px 10px black;
+
+
+}
+.imagend:hover{
+    opacity: 30%;
+    
+}
+.mapa p{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.video{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordenar{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.ordenar .items{
+    width: 40%;
+    float: right;
+    text-align: center;
+   
+   
+}
+.ordenar img{
+    width: 50%;
+    display: inline;
+}
+.items :before{
+    content: "★";
+
+}
+.items li{
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}

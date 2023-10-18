@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="productos.css">
+</head>
+
+<body>
+    <header>
+        <div class="primerparte">
+            <h1><img src="logo.png" alt=""></h1>
+            <nav>
+                <ul>
+                    <a href="pagprincipal.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="productos.html">
+                        <li>PRODUCTO</li>
+                    </a>
+                    <a href="contacto.html">
+                        <li>CONTACTO</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="fomulario">
+            <label for="nombreyapellido">Nombre y Apellido</label>
+
+            <input class="input-padron" id="nombreyapellido" required type="text" placeholder="">
+
+            <label for="correo">Correo Electronico</label>
+
+            <input class="input-padron" id="correo" type="email" placeholder="fran@gmail.com" required>
+
+            <label for="tel">Telefono</label>
+
+            <input class="input-padron" id="tel" type="number" placeholder="(XX) XXX X XXX XXX" required>
+            <label for="Mensaje">Mensaje</label>
+            <textarea class="input-padron" name="" id="Mensaje" cols="50" rows="8"></textarea>
+            <br>
+            <fieldset>
+                <legend> Como le gustaria que lo concactemos ? </legend>
+                <label for="radiomsj"><input id="radiomsj" type="radio" name="contacto" value="E-mail">E-mail</label>
+
+                <label for="wpp"> <input id="wpp" type="radio" name="contacto" value="Whatsapp" checked>Whatsapp</label>
+
+                <label for="Fijo"><input id="Fijo" type="radio" name="contacto" value="Fijo">Telefono</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>En cual horario desea ser atendido</legend>
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+            <label for=""><input type="checkbox" checked>Le gusataria recibir novedades de lala barberia</label>
+
+            <button class="hover">Enviar Formulario</button>
+
+
+        </form>
+        <div class="tabla">
+            <table>
+                <tr>
+                    <th>DIA</th>
+                    <th>HORARIO</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <td>lunes</td>
+                    <td>08h-20h</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08h-20h</td>
+                </tr>
+                <tr>
+                    <td>viernes</td>
+                    <td>08h-20h</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <img src="logo-blanco.png" alt="">
+        <p class="futer"> &COPY Copyright barberia Alura-2023</p>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
